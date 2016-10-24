@@ -1,0 +1,2217 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li{
+    list-style: none;
+}
+
+input,img{
+    border:none;
+}
+em{
+    font-style: normal;
+    font-size: 12px;
+}
+
+/*头部开始*/
+#header{
+    position: relative;
+    width:1200px;
+    height:102px;
+    margin:0 auto;
+    z-index: 999;
+}
+/*logo开始*/
+#header .logo a{
+    position: absolute;
+    top:28px;
+    left:2px;
+    width:160px;
+    height:49px;
+    display: block;
+    text-indent:99999px;
+    white-space:nowrap;
+    overflow: hidden;
+    background: url(../img/index_sp.png) no-repeat 0 -44px;
+}
+/*logo结束*/
+
+/*搜素框开始*/
+#header .search{
+    position: absolute;
+    top:24px;
+    left:414px;
+    width:357px;
+    height:40px;
+    background: #fff;
+    border:1px solid #24BAF1;
+}
+
+#header .search .search_text{
+    position: absolute;
+    left:0;
+    top:0;
+    width:289px;
+    height:40px;
+    line-height:40px;
+    text-indent: 10px;
+    color: #c4c4c4;
+}
+
+#header .search .btn{
+    position: absolute;
+    left:297px;
+    top:0;
+    height:41px;
+    width:61px;
+    cursor: pointer;
+    background: #24BAF1;
+    border:1px solid #24BAF1;
+}
+/*搜索框结束*/
+
+/*搜索文本框点击样式开始*/
+.blue{
+}
+/*搜索文本框点击样式结束*/
+
+/*搜索框下面标签开始*/
+#header .search_tag{
+    position: absolute;
+    left:414px;
+    top:72px;
+}
+
+#header .search_tag a{
+    color: #666;
+    font:12px "宋体","Arial Narrow";
+}
+
+#header .search_tag a:hover{
+    text-decoration: underline;
+}
+
+#header .search_tag a.link{
+    color: #999;
+}
+
+#header .search_tag a.link2{
+    padding-left:22px;
+}
+/*搜索框下面标签结束*/
+
+/*用户内容区域开始*/
+#header .userarea{
+    position: absolute;
+    top:50px;
+    right:0;
+    width:295px;
+    height:15px;
+}
+
+/*用户内容区域三个小的div开始*/
+#header .userarea div{
+    float: right;
+    padding:0 13px;
+}
+
+/*左边div开始*/
+#header .userarea .user_l{
+    position: relative;
+    height:15px;
+    line-height: 15px;
+}
+
+#header .userarea .user_l b{
+    position: absolute;
+    left:0;
+    top:2px;
+    display: block;
+    width:12px;
+    height:12px;
+    background: url(../img/index_sp.png) no-repeat 0 -330px;
+}
+
+#header .userarea .user_l a{
+    padding-left:5px;
+    color: #333;
+    font-size: 12px;
+}
+#header .userarea .user_l a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+/*左边div结束*/
+
+/*中间div开始*/
+
+#header .userarea .user_m{
+    position: relative;
+    top:2px;
+    height:25px;
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+}
+#header .userarea .user_m b{
+    display: block;
+    width:12px;
+    height:12px;
+}
+#header .userarea .user_m .left{
+    position: absolute;
+    left:0;
+    top:1px;
+    background: url(../img/index_sp.png) no-repeat -42px -332px;
+}
+#header .userarea .user_m .right{
+    position: absolute;
+    right:0;
+    top:1px;
+    background: url(../img/index_sp.png) no-repeat -22px -346px;
+}
+/*中间隐藏盒子  开始*/
+#header .userarea .user_m .hidden_m{
+    position: absolute;
+    top:25px;
+    right:-80px;
+    width:237px;
+    height:124px;
+    padding:0;
+    border:1px solid #cecece;
+    display: none;
+}
+/*中间隐藏头部  开始*/
+#header .userarea .user_m .hidden_m .hidden_m_top{
+    position: absolute;
+    top:0;
+    left:0;
+    width:237px;
+    height:32px;
+    background: #fbfafa;
+    padding:0;
+    border-bottom:2px solid #e6e6e6;
+}
+#header .userarea .user_m .hidden_m .hidden_m_top span{
+    display: block;
+    height:31px;
+    width:84px;
+    color: #333;
+    font-size: 14px;
+    line-height:32px;
+    text-align: center;
+}
+#header .userarea .user_m .hidden_m .hidden_m_top .span_style{
+    color: #249ff1;
+    border-bottom: 2px solid #249ff1;
+}
+#header .userarea .user_m .hidden_m .hidden_m_top .update{
+    top:0;
+    left:34px;
+    position: absolute;
+}
+#header .userarea .user_m .hidden_m .hidden_m_top .history{
+    position: absolute;
+    right:34px;
+    top:0;
+}
+/*中间隐藏头部  结束*/
+
+/*影片中心的div  开始*/
+#header .userarea .user_m .hidden_m .hidden_m_m{
+    position: absolute;
+    top:33px;
+    left:-1px;
+    width:237px;
+    height:91px;
+    padding:0;
+    background: #fff;
+    border:1px solid #cecece;
+    border-top: none;
+}
+#header .userarea .user_m .hidden_m .hidden_m_b{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:237px;
+    height:28px;
+    padding:0;
+    background: #efefef;
+}
+#header .userarea .user_m .hidden_m .hidden_m_b a{
+    position: absolute;
+    right:10px;
+    color: #333;
+    line-height:28px;
+}
+#header .userarea .user_m .hidden_m .hidden_m_b a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*影片中心的div   结束*/
+/*观看记录div   开始*/
+#header .userarea .user_m .hidden_m .history_box {
+    position: absolute;
+    left: -1px;
+    top: 33px;
+    width: 237px;
+    height: 214px;
+    padding: 0;
+    background: #fbfafa;
+    border: 1px solid #cecece;
+    border-top: none;
+    display: none;
+}
+#header .userarea .user_m .hidden_m .history_box p{
+    text-align: center;
+    height:110px;
+    line-height: 110px;
+}
+#header .userarea .user_m .hidden_m .history_box p span{
+    cursor: text;
+}
+#header .userarea .user_m .hidden_m .history_box li{
+    padding-left:10px;
+    height:18px;
+    line-height: 18px;
+    color: #999;
+}
+#header .userarea .user_m .hidden_m .history_box li a{
+    color: #333;
+}
+#header .userarea .user_m .hidden_m .history_box li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*观看记录div   结束*/
+#header .userarea .user_m .hidden_m .arrow{
+    position: absolute;
+    right:110px;
+    top:-12px;
+    width:13px;
+    height: 12px;
+    background: #fbfafa;
+}
+/*中间隐藏盒子  结束*/
+/*中间div结束*/
+/*右边的div开始*/
+
+#header .userarea .user_r{
+    position: relative;
+    top:2px;
+    height:25px;
+    margin-left: 9px;
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+}
+#header .userarea .user_r b{
+    display: block;
+    width:12px;
+    height:12px;
+    background: #ccc;
+}
+#header .userarea .user_r .left{
+    position: absolute;
+    left:0;
+    top:1px;
+    background: url(../img/index_sp.png) no-repeat -53px -331px;
+}
+#header .userarea .user_r .right{
+    position: absolute;
+    right:0;
+    top:1px;
+    background: url(../img/index_sp.png) no-repeat -50px -343px;
+}
+/*右侧隐藏盒子样式开始*/
+#header .userarea .user_r .hidden_r{
+    position: absolute;
+    top:25px;
+    right:2px;
+    width:238px;
+    padding:5px 0 40px 0;
+    border:1px solid #cecece;
+    background: #fbfafa;
+    display: none;
+    z-index:100;
+}
+
+#header .userarea .user_r .hidden_r .arrow_r{
+    position: absolute;
+    right:25px;
+    top:-11px;
+    width:15px;
+    height:12px;
+    background: #fbfafa;
+}
+#header .userarea .user_r .hidden_r li{
+    border-bottom:1px solid #e6e6e6;
+    padding:8px 0 0 15px;
+}
+#header .userarea .user_r .hidden_r li h3{
+    color: #249ff1;
+    padding-bottom: 5px;
+}
+#header .userarea .user_r .hidden_r li p{
+    overflow: hidden;
+}
+#header .userarea .user_r .hidden_r li p a{
+    display: inline-block;
+    color: #999;
+    padding:4px 0;
+}
+#header .userarea .user_r .hidden_r li p a:hover{
+    text-decoration: underline;
+}
+#header .userarea .user_r .hidden_r li p span{
+    color: #ddd;
+    line-height: 22px;
+    padding:0 6px;
+}
+#header .userarea .user_r .hidden_r .download{
+    border:none;
+}
+#header .userarea .user_r .hidden_r .download a{
+    color: #249ff1;
+}
+#header .userarea .user_r .hidden_r .hidden_b{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:30px;
+    padding:0;
+    background: #efefef;
+}
+#header .userarea .user_r .hidden_r .hidden_b a{
+    position: absolute;
+    right:6px;
+    bottom:0;
+    line-height: 30px;
+    color: #333;
+}
+#header .userarea .user_r .hidden_r .hidden_b a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*右侧隐藏盒子样式结束*/
+/*右边的div结束*/
+/*用户内容区域三个小的div结束*/
+/*用户内容区域结束*/
+/*头部结束*/
+
+
+
+
+
+
+
+
+/*导航栏    开始*/
+#nav{
+    width:100%;
+    height:36px;
+    background: #249ff1;
+}
+#nav .nav_box{
+    position: relative;
+    width:1200px;
+    height:36px;
+    margin:0 auto;
+}
+/*导航栏左侧    开始*/
+#nav .nav_box .navarea_l li{
+    float: left;
+    line-height:36px;
+}
+#nav .nav_box .navarea_l li a{
+    float: left;
+    display: block;
+    padding: 0 16px 0 16px;
+    color: #fff;
+    font-size: 14px;
+
+}
+#nav .nav_box .navarea_l li a:hover{
+    background: #4fc4fb;
+}
+#nav .nav_box .navarea_l .navarea_one a{
+    padding-left:0;
+    font-weight: bold;
+}
+#nav .nav_box .navarea_l .navarea_one a:hover{
+    background: #249ff1;
+}
+
+/*导航栏左侧new图标    开始*/
+#nav .nav_box .navarea_l .new{
+    position: absolute;
+    left:343px;
+    display: block;
+    width:25px;
+    height:11px;
+    background: url(../img/index_sp.png) no-repeat -288px -80px;
+}
+/*导航栏左侧new图标    结束*/
+/*导航栏左侧    结束*/
+
+/*导航栏右边    开始*/
+#nav .nav_box .navarea_r{
+    float: right;
+    padding-right:12px;
+}
+#nav .nav_box .navarea_r li{
+    float: left;
+}
+#nav .nav_box .navarea_r li a{
+    line-height:36px;
+    color: #c7f4ff;
+    padding-left:13px;
+    font-size: 12px;
+}
+#nav .nav_box .navarea_r li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+/*导航栏右边    结束 */
+/*导航栏    结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*轮换版    开始*/
+#focus_background{
+    width:100%;
+    height:450px;
+}
+
+/*轮换版中间大盒子    开始*/
+#focus_background #focus_box{
+    position: relative;
+    width:1200px;
+    height:450px;
+    margin:0 auto;
+}
+
+/*轮换版小焦点图    开始*/
+#focus_background #focus_box .smal_pic{
+    position:absolute;
+    top:398px;
+    left:0;
+    height:50px;
+}
+#focus_background #focus_box .smal_pic li{
+    float: left;
+    width:66px;
+    height:43px;
+    overflow: hidden;
+    margin-left:11px;
+    border:1px solid #4e4e4e;
+}
+#focus_background #focus_box .smal_pic .hover{
+    border:2px solid red;
+}
+#focus_background #focus_box .smal_pic li a{
+    display: block;
+    position: relative;
+}
+#focus_background #focus_box .smal_pic li img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+/*轮换版小焦点图    结束*/
+
+/*播放按钮    开始*/
+#focus_background #focus_box .ico{
+    position: absolute;
+    top:345px;
+    left:0;
+    width:42px;
+    height:42px;
+    background: #ddd;
+}
+/*播放按钮    结束*/
+
+/*标题    开始*/
+#focus_background #focus_box .focus_title{
+    position: absolute;
+    top:352px;
+    left:59px;
+    width:894px;
+}
+#focus_background #focus_box .focus_title a{
+    display: block;
+    display: none;
+    position: absolute;
+    left:0;
+    top:0;
+    color: #fff;
+    font: 20px "Microsoft Yahei";
+    font-weight:400;
+}
+/*标题    结束*/
+
+/*全部分类   开始*/
+#focus_background #focus_box .focusrank{
+    position: absolute;
+    top:0;
+    right:0;
+    width:238px;
+    height:448px;
+    background: #323232;
+    border:1px solid #474546;
+}
+#focus_background #focus_box .focusrank .title{
+    position: absolute;
+    top:0;
+    left:0;
+    width:238px;
+    height:31px;
+    background: #292929;
+    line-height: 31px;
+}
+#focus_background #focus_box .focusrank .title a{
+    float: left;
+    color: #999;
+    font:14px "Microsoft Ya hei";
+    line-height: 31px;
+    padding: 0 2px 0 4px;
+}
+#focus_background #focus_box .focusrank .title a.rank_hover{
+    border-bottom:2px solid #249ff1;
+    color: #249ff1;
+}
+
+/*全部分类内容区域    开始*/
+#focus_background #focus_box .focusrank .content{
+    position: absolute;
+    top:33px;
+    left:8px;
+    width:220px;
+    height:416px;
+}
+#focus_background #focus_box .focusrank .content ul{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+#focus_background #focus_box .focusrank .content li{
+    position: relative;
+    width:220px;
+    height:20px;
+    margin-top:9px;
+    color: #767676;
+    font-size: 12px;
+    line-height: 20px;
+}
+#focus_background #focus_box .focusrank .content li em{
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:20px;
+    height:18px;
+    text-align: center;
+    line-height:18px;
+    border:1px solid #4f4f4f;
+    font-style: normal;
+    font-family:"宋体","Arial Narrow";
+}
+#focus_background #focus_box .focusrank .content li p a{
+    line-height: 20px;
+    font-family:"Tahoma";
+    margin-left:30px;
+    color: #ccc;
+    font-size: 12px;
+}
+#focus_background #focus_box .focusrank .content li p a:hover{
+    text-decoration: underline;
+}
+#focus_background #focus_box .focusrank .content li p b{
+    position: absolute;
+    right: 0;
+    top:5px;
+    font:11px "Tahoma";
+}
+
+/*全部分类内容区域第一个li    开始*/
+#focus_background #focus_box .focusrank .content .show_top{
+    width:220px;
+    height:100px;
+    color: #999;
+    overflow: hidden;
+}
+#focus_background #focus_box .focusrank .content .show_top .pic{
+    position: absolute;
+    top:0;
+    left:0;
+    margin:0;
+    border:none;
+    
+}
+#focus_background #focus_box .focusrank .content .show_top .top_one{
+    background: #249ff1;
+    border:1px solid #1e99eb;
+    color: #fff;
+    z-index:100;
+}
+#focus_background #focus_box .focusrank .content .show_top p{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:220px;
+    height:22px;
+    background: #000;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+#focus_background #focus_box .focusrank .content .show_top p a{
+    font:14px "tahoma";
+    color: #fff;
+    line-height: 22px;
+    margin-left:8px;
+    padding-right:8px;
+}
+#focus_background #focus_box .focusrank .content .show_top p .num{
+    position: absolute;
+    right:5px;
+    top:1px;
+    line-height:22px;
+    color: #ff6600;
+    font-weight:bold;
+}
+/*全部分类内容区域第一个li    结束*/
+
+#focus_background #focus_box .focusrank .content li .top_two{
+    background: #249ff1;
+    border:1px solid #1e99eb;
+    color: #fff;
+}
+/*全部分类内容区域    结束*/
+/*全部分类   结束*/
+/*轮换版中间大盒子    结束*/
+/*轮换版    开始*/
+
+
+
+
+
+
+
+
+
+/*今日热播    开始*/
+.hot_box{
+    width:1200px;
+    height:508px;
+    border-bottom: 1px solid #eee;
+    margin:0 auto;
+}
+
+/*左边盒子     开始*/
+ .hot_left{
+    float: left;
+    position: relative;
+    left:0;
+    top:0;
+    width:930px;
+    height:460px;
+    margin-top: 25px;
+}
+
+/*左边盒子公共样式    开始*/
+.hot_l_title{
+    position: absolute;
+    left:0;
+    top:0;
+    width:915px;
+    height:28px;
+}
+.hot_l_title .htitle{
+    float: left;
+    width:105px;
+    height:28px;
+    line-height: 28px;
+    
+}
+.hot_l_title .tabbox{
+    float: left;
+    height:28px;
+    line-height: 28px;
+    color: #ded8de;
+    margin-left:75px;
+}
+.hot_l_title .tabbox a{
+    display: inline-block;
+    color: #545454;
+    margin:0 14px 0 5px;
+    font:400 16px "Microsoft Yahei";
+}
+/*标题公共鼠标移入样式    开始*/
+.hot_style{
+    border-bottom:2px solid #0099ff;
+}
+/*标题公共鼠标移入样式    结束*/
+
+/*图片公共鼠标移入样式    开始*/
+.apic_hover{
+    border-bottom: 2px solid #249ff1;
+    margin-bottom:-2px;
+}
+/*图片公共鼠标移入样式    结束*/
+.hot_left .public{
+    position: absolute;
+    top:30px;
+    left:-35px;
+    height:460px;
+    width:950px;
+    display: none;
+}
+.public li{
+    float: left;
+    width:155px;
+    height:127px;
+    padding-left:35px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+.public li .pic{
+    display: block;
+    position: relative;
+    width:155px;
+    height:100px;
+}
+.public li .pic img{
+    display: block;
+    position: absolute;
+    left:0;
+    right:0;
+}
+.public li .pic .masktxt{
+    position: absolute;
+    right:0;
+    bottom:0;
+    display: block;
+    width:155px;
+    height:34px;
+    line-height: 38px;
+    padding-right: 4px;
+    color: #ddd;
+    text-align: right;
+    font-size: 12px;
+}
+.public li .pic_title{
+    display: block;
+    width:155px;
+    height:16px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.public li .pic_title:hover{
+    color: #249ff1;
+}
+.public li .pic_title span{
+    color: #999;
+    font-size: 14px;
+}
+/*左边盒子公共样式    结束*/
+/*左边盒子     结束*/
+
+/*右边盒子   开始 */
+.hot_box .hot_right{
+    position: relative;
+    float: right;
+    width:240px;
+    height:460px;
+    margin-top:30px;
+}
+
+/*标题    开始*/
+.hot_box .hot_right .hot_r_title{
+    width:240px;
+    height:28px;
+    font-size: 16px;
+}
+.hot_box .hot_right .hot_r_title .tab_right{
+    float: left;
+
+}
+.hot_box .hot_right .hot_r_title .tab_right .tab{
+    color: #545454;
+    font-size: 16px;
+    line-height: 28px;
+    font-family:"Microsoft Yahei";
+    margin-right:8px;
+    margin-left: 3px;
+}
+.hot_box .hot_right .hot_r_title .more{
+    float: right;
+    margin-top:9px;
+    font-size: 12px;
+    color: #999;
+    padding-right: 10px;
+}
+.hot_box .hot_right .hot_r_title .more:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+
+/*标题    结束*/
+/*右边图片去    开始*/
+.hot_box .hot_right ul{
+    position: relative;
+    left:-10px;
+    width:250px;
+    height:460px;
+    display: none;
+}
+.hot_box .hot_right ul li{
+    float: left;
+    width:115px;
+    height:130px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+.hot_box .hot_right ul li .pic{
+    position: relative;
+    display: block;
+    width:115px;
+    height:79px;
+    overflow: hidden;
+}
+.hot_box .hot_right ul li .pic img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.hot_box .hot_right ul li .title{
+    display: block;
+    height:16px;
+    color: #333;
+    font-size: 14px;
+    margin-top:10px;
+    margin-bottom: 7px;
+}
+.hot_box .hot_right ul li .title:hover{
+    color: #249ff1;
+}
+.hot_box .hot_right ul li p{
+    color: #999;
+    font-size: 12px;
+}
+
+/*右边的title  js切换效果    开始*/
+.a_r_tab{
+    border-bottom:2px solid #0099ff;
+}
+/*右边的title  js切换效果    结束*/
+/*右边图片去    结束*/
+/*右边盒子   结束 */
+/*今日热播    结束*/
+
+
+
+
+
+
+
+
+/*娱乐大区域    开始*/
+#recreation{
+    width:1200px;
+    height:527px;
+    border-bottom:1px solid #eee;
+    margin:0 auto;
+}
+/*娱乐区域左边    开始*/
+#recreation .rec_left{
+    float: left;
+    width:916px;
+    height:496px;
+    margin-top:28px;
+}
+/*标题盒子    开始*/
+#recreation .rec_left .title_box{
+    width:915px;
+    height: 28px;
+
+}
+#recreation .rec_left .title_box .title{
+    display: block;
+    float: left;
+    width:50px;
+    height:28px;
+    line-height: 28px;
+    font-size:25px;
+}
+#recreation .rec_left .title_box .more{
+    display: block;
+    float: right;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 8px;
+
+}
+#recreation .rec_left .title_box .more:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*标题盒子    结束*/
+/*图片左边区域    开始*/
+#recreation .rec_left .pic_left{
+    float: left;
+    width:335px;
+    height:auto;
+    margin-top:18px;
+}
+#recreation .rec_left .pic_left .bigpic{
+    display: block;
+    position: relative;
+
+}
+#recreation .rec_left .pic_left .bigpic span{
+    display: block;
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:335px;
+    height:34px;
+    line-height:34px;
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+}
+
+#recreation .rec_left .pic_left .txt_left{
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border-bottom:1px dashed #e6e6e6;
+}
+#recreation .rec_left .pic_left .txt_left h3 strong{
+    font-size: 18px;
+    color: #ff3300;
+}
+#recreation .rec_left .pic_left .txt_left h3 a{
+    font: 400 18px "Microsoft Yahei";
+    color: #24a8f3;
+    text-align: left;
+}
+#recreation .rec_left .pic_left .txt_left h3 a:hover{
+    text-decoration: underline;
+}
+#recreation .rec_left .pic_left .txt_left p{
+    color: #999;
+    font-size: 12px;
+    padding-top:4px;
+}
+#recreation .rec_left .pic_left .txt_left p a{
+    color: #333;
+    padding-right: 8px;
+}
+#recreation .rec_left .pic_left .txt_left p a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+#recreation .rec_left .pic_left .border_none{
+    border:none;
+}
+/*图片左边区域    结束*/
+/*图片区域右边    开始*/
+#recreation .rec_left .imglist {
+    float: right;
+    width:570px;
+    padding-top: 8px;
+
+}
+#recreation .rec_left .imglist li{
+    float: left;
+    width:155px;
+    height:130px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+/*图片区域右边    结束*/
+/*娱乐区域左边    结束*/
+/*娱乐区域右边    开始*/
+#recreation .rec_right{
+    float: right;
+    width:254px;
+    margin-top:30px;
+}
+#recreation .rec_right .right_title{
+    height:28px;
+    margin-left: 12px;
+}
+#recreation .rec_right .right_title .title{
+    display: block;
+    float: left;
+    height:25px;
+    line-height: 25px;
+    width:105px;
+    font-size: 20px;
+}
+#recreation .rec_right .right_title .more{
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #999;
+    padding-right: 10px;
+    margin-top:8px;
+}
+#recreation .rec_right .right_title .more:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+
+#recreation .rec_right .imglist{
+    width:254px;
+    height:320px;
+
+}
+#recreation .rec_right .imglist li{
+    float: left;
+    width:115px;
+    height:91px;
+    padding-left: 12px;
+    margin-top:15px;
+}
+#recreation .rec_right .imglist li .pic{
+    position: relative;
+    display: block;
+    width:115px;
+    height:65px;
+    overflow: hidden;
+}
+#recreation .rec_right .imglist li .pic img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+#recreation .rec_right .imglist li .pic em{
+    position: absolute;
+    top: 0;
+    left:0;
+    display: block;
+    width:20px;
+    height:18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    font-size: 12px;
+    background: #249ff1;
+    border:1px solid #1e99eb;
+}
+#recreation .rec_right .imglist .title{
+    display: block;
+    font-size: 14px;
+    color:#333;
+    padding-top: 10px;
+}
+#recreation .rec_right .imglist .title:hover{
+    color: #249ff1;
+}
+
+/*图片下方有序文字ul    开始*/
+#recreation .rec_right .ranklist{
+    margin-top:16px;
+    margin-left:12px;
+}
+#recreation .rec_right .ranklist li{
+    position: relative;
+    height:20px;
+    margin-top: 7px;
+}
+#recreation .rec_right .ranklist li em{
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:20px;
+    height:18px;
+    line-height: 18px;
+    text-align: center;
+    border:1px solid #e1e1e1;
+    background: #f8f8f8;
+}
+#recreation .rec_right .ranklist li a{
+    padding-left:30px;
+    line-height: 20px;
+    color: #333;
+}
+#recreation .rec_right .ranklist li a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+/*图片下方有序文字ul    结束*/
+/*娱乐区域右边    结束*/
+/*娱乐大区域    结束*/
+
+
+
+
+
+
+
+
+/*广告区域    开始*/
+.ad{
+    position: relative;
+    width:1200px;
+    height:80px;
+    margin:0 auto;
+}
+.ad .banner{
+    position: absolute;
+    top:0;
+    right:0;
+    width:210px;
+    height:80px;
+    background: #ccc;
+}
+/*广告区域    结束*/
+
+
+
+
+
+/*电视剧区域     开始*/
+.tv{
+    width:1200px;
+    height:570px;
+    margin:0 auto;
+    border-bottom: 1px solid #eee;
+}
+.hot_left .tvlist li{
+    height:150px;
+}
+.hot_left .tvlist li p{
+    color: #999;
+    margin-top:7px;
+    font-size: 12px;
+}
+.hot_l_title .more{
+    display: block;
+    float: right;
+    padding-right: 10px;
+    margin-top:10px ;
+    color: #999;
+}
+ .hot_l_title .more:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+
+/*右边盒子    开始*/
+.tv_right{
+    float: right;
+    width:250px;
+    margin-top:25px;
+}
+.tv_r_title{
+    height:28px;
+    width:250px;
+}
+.tv_r_title h3{
+    font:400 18px "Microsoft Yahei";
+    color: #333;
+    padding-left: 10px;
+}
+.tv_r_title h3 a{
+    float: right;
+    margin-top:5px;
+    padding-right: 10px;
+    color: #999;
+}
+.tv_r_title h3 a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+
+/*图片列表   开始*/
+.imglist_public{
+    width:250px;
+    height:93px;
+    margin-top: 10px;
+}
+.imglist_public li{
+    float: left;
+    width:115px;
+    padding-left: 10px;
+}
+.imglist_public li .pic{
+    display: block;
+    position: relative;
+    width:115px;
+    height:65px;
+}
+.imglist_public li .title{
+    display: block;
+    height:16px;
+    padding-bottom: px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.imglist_public li .title:hover{
+    color: #249ff1;
+}
+/*图片列表   结束*/
+
+/*链接盒子    开始*/
+.links{
+    width:240px;
+    height:45px;
+    background: #f3f3f3;
+    padding-top: 3px;
+    margin:5px 0 0 10px;
+}
+.links li{
+    float: left;
+    padding-left: 8px;
+    line-height: 22px;
+}
+.links li a{
+    white-space: nowrap;
+    color: #333;
+}
+.links li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*链接盒子    结束*/
+
+/*电视剧排行榜标题盒子    开始*/
+.box_title{
+    height:28px;
+    width:240px;
+    margin:10px 0 0 10px;
+}
+.box_title h3{
+    float: left;
+    margin-top: 5px;
+    color: #333;
+    font:400  18px "Microsoft Yahei";
+}
+.box_title .morerank{
+    float: right;
+    display: block;
+    width:66px;
+    height:18px;
+    margin-top:10px;
+    font-family:"Tahoma";
+    color: #999;
+}
+.box_title .morerank:hover{
+    color: #249ff1;
+}
+/*电视剧排行榜标题盒子    结束*/
+
+/*tab切换盒子    开始*/
+.tab_box{
+    width:240px;
+    height:30px;
+    margin:18px 0 0 10px;
+    border:1px solid #e1e1e1;
+    border-bottom: none;
+}
+.tab_box li{
+    float: left;
+    width:79px;
+    text-align: center;
+    color: #333;
+    border-left:1px solid #e1e1e1;
+    border-bottom:1px solid #e1e1e1;
+    line-height: 28px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.tab_box .tv_r_tab{
+    font-weight: 700;
+    color: #333;
+    background: #fbfbfb;
+    border-top:2px solid #249ff1;
+    border-bottom: none;
+}
+/*tab切换盒子    结束*/
+
+/*tab切换盒子内容    开始*/
+.list{
+    position: relative;
+    width:249px;
+    height:163px;
+    margin-left:10px;
+    display: none;
+}
+.list .ranklist{
+    float: left;
+    width:110px;
+}
+.list .ranklist li{
+    position: relative;
+    width:110px;
+    height:20px;
+    line-height:20px;
+    margin-top: 10px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.list .ranklist li em{
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    width:20px;
+    height:18px;
+    text-align: center;
+    line-height: 18px;
+    border:1px solid #e1e1e1;
+    background: #fbfbfb;
+}
+.list .ranklist li a{
+    color: #333;
+    font-size: 12px;
+}
+.list .ranklist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+.list .ranklist .top em{
+    color: #fff;
+    background: #249ff1;
+}
+/*tab切换盒子内容    结束*/
+
+/*列表下方切换文字    开始*/
+.tag{
+    position: relative;
+    width:240px;
+    height:46px;
+    margin:13px 0 0 10px;
+}
+.tag .tagbox{
+    position: absolute;
+    line-height: 22px;
+    display: none;
+}
+.tag .tagbox li{
+    float: left;
+    padding-right: 14px;
+}
+.tag .tagbox li a{
+    color: #333;
+}
+.tag .tagbox li a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+.tag .tagbox li .more{
+    color: #999;
+}
+/*列表下方切换文字    结束*/
+/*右边盒子    结束*/
+/*电视剧区域     结束*/
+
+
+
+
+
+/*猜你喜欢    开始*/
+.like{
+    width:1200px;
+    height:319px;
+    padding-top:30px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+}
+
+/*左边大区域    开始*/
+.like .like_left{
+    float: left;
+    width:915px;
+    height:319px;
+}
+/*左边标题    开始*/
+.like .like_left>.title{
+    width: 915px;
+    height:28px;
+}
+.like .like_left>.title h2{
+    float: left;
+    width:106px;
+    height:24px;
+}
+.like .like_left>.title a{
+    float: right;
+    display: block;
+    width:50px;
+    height:20px;
+    border:1px solid #dedede;
+    background: #fff;
+    line-height: 20px;
+    margin-top:4px;
+    text-align: center;
+    color: #333;
+}
+.like .like_left>.title a:hover{
+    background: #249ff1;
+    color: #fff;
+}
+/*左边标题    结束*/
+
+/*左边图片区域    开始*/
+.like .like_left .main_l{
+    position: relative;
+    width:915px;
+    height:235px;
+    overflow: hidden;
+}
+.like .like_left .main_l .img_list{
+    position: absolute;
+    left:0;
+    top:0;
+    width:999999px;
+
+}
+.like .like_left .main_l .img_list li{
+    float: left;
+    width:120px;
+    height:214px;
+    margin-top:15px;
+    margin-right:39px;
+    overflow: hidden;
+}
+.like .like_left .main_l .img_list li .pic{
+    display: block;
+    width:120px;
+    height:168px;
+}
+.like .like_left .main_l .img_list li p{
+    color: #999;
+    font-size:12px;
+}
+.like .like_left .main_l .img_list li .title{
+    display: block;
+    width: 120px;
+    height:17px;
+    margin-top:10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.like .like_left .main_l .img_list li .title a{
+    color: #333;
+    font-size: 14px;
+}
+.like .like_left .main_l .img_list li .title a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+/*左边图片区域    结束*/
+/*左边大区域    结束*/
+
+/*右边大区域    开始*/
+.like .like_right{
+    float: right;
+    width:240px;
+    height:318px;
+}
+.like .like_right .title_right{
+    width:240px;
+    height:28px;
+}
+.like .like_right .title_right h3{
+    color: #333;
+    font:18PX  "Microsoft Yahei";
+}
+
+/*右边ul    开始*/
+.like .like_right .lab_list{
+    margin-top:8px;
+}
+.like .like_right .lab_list li{
+    float: left;
+    width:70px;
+    height:54px;
+    border:1px solid #ddd;
+    margin:8px 8px 0 0;
+    background: #ddd;
+    cursor: pointer;
+}
+.like .like_right .lab_list li a{
+    display: block;
+    width:70px;
+    height:54px;
+    font:16px "Microsoft Yahei";
+    line-height: 54px;
+    text-align: center;
+    color: #4ba4f4;
+}
+.like .like_right .lab_list li a:hover{
+    color: #fff;
+    background: #249ff1;
+}
+/*右边ul    结束*/
+
+.like .like_right .click{
+    float: left;
+    display: block;
+    width:230px;
+    height:17px;
+    margin-top:15px;
+    color: #999;
+    font-size: 12px;
+}
+/*右边大区域    结束*/
+/*猜你喜欢    结束*/
+
+
+
+
+
+
+/*广告区域    开始*/
+.ad_box{
+    width:1200px;
+    height:90px;
+    margin:0 auto;
+}
+.ad_box .ad_left{
+    float: left;
+    width:950px;
+    height:90px;
+
+}
+.ad_box .ad_left .ad_pic{
+    width:950px;
+    height:90px;
+    background: #ccc;
+}
+
+.ad_box .tao{
+    float: left;
+    width:30px;
+    height:90px;
+    background: #ccc;
+}
+
+.ad_box .flash{
+    float: right;
+    width: 210px;
+    height:90px;
+}
+.ad_box .flash .swflogo{
+    width:210px;
+    height:90px;
+}
+
+/*广告区域    结束*/
+
+
+
+
+
+
+
+
+/*电影区域    开始*/
+.movie{
+    width:1200px;
+    height:790px;
+    margin:0 auto;
+    border-bottom: 1px  solid #eee;
+}
+
+/*左边    开始*/
+.movie .mov_left{
+    float: left;
+    position: relative;
+    width:915px;
+    height:790px;
+}
+
+/*标题部分引用公共样式    开始*/
+.movie_l_title{
+    position: relative;
+    margin-top:30px;
+    width:915px;
+    height:28px;
+}
+.movie .mov_left .movie_pic{
+
+}
+/*标题部分引用公共样式    结束*/
+
+.movie_l_title .tabbox .new{
+    color: #ff3300;
+}
+
+.movie_l_title .more{
+    float: right;
+    padding-right:10px;
+    margin-top:12px;
+    color: #999;
+}
+.movie_l_title .more:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+
+/*左边图片区域    开始*/
+.img_list_public{
+    position: absolute;
+    display: none;
+    margin-left:-39px;
+}
+.img_list_public li{
+    float: left;
+    width:120px;
+    height:213px;
+    padding:14px 0 0 39px;
+}
+.img_list_public li .pic{
+    position: relative;
+    display: block;
+    width: 120px;
+    height:168px;
+    background: #ccc;
+}
+.img_list_public li .pic img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.img_list_public li .title{
+    display: block;
+    padding-top:8px;
+    color: #333;
+    font-size: 14px;
+}
+.img_list_public li .title:hover{
+    color: #249ff1;
+}
+.img_list_public li p{
+    margin-top:4px;
+    color: #999;
+    font-size: 12px;
+}
+/*左边图片区域    结束*/
+/*左边    结束*/
+
+/*右边    开始*/
+.movie .movie_right{
+    float: right;
+    width:250px;
+    margin-top:35px;
+}
+.movie .movie_right .box_title{
+    margin-top:15px;
+}
+.movie .movie_right .video{
+    margin-top:25px;
+}
+.movie .movie_right .mov_tab{
+    margin-top:13px;
+}
+.movie .movie_right .mov_tab li{
+    width:59px;
+}
+.movie .movie_right .tag{
+    margin-top:3px;
+}
+/*右边    结束*/
+/*电影区域    结束*/
+
+
+
+
+
+
+/*vip区域   开始*/
+.vip{
+    width: 1200px;
+    height:318px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+}
+
+/*左边   开始*/
+.vip .vip_left{
+    position: relative;
+    float: left;
+    width: 915px;
+
+}
+
+.vip .vip_left .vip_title{
+    width:139px;
+    height:28px;
+}
+.vip .vip_left .mprevip{
+    display: block;
+    float: right;
+    width:77px;
+    margin-top:9px;
+    margin-right:5px;
+    padding:2px 0;
+    text-align: center;
+    color: #333;
+    border:1px solid #ddd;
+}
+.vip .vip_left .mprevip:hover{
+    color: #fff;
+    background: #249ff1;
+}
+/*左边   结束*/
+
+/*右边    开始*/
+.vip .vip_right{
+    float: right;
+    margin-right:-10px;
+}
+.vip .vip_right .tagbox{
+    position: absolute;
+    top:-40px;
+}
+.vip .vip_right .vip_box_title{
+    margin-top:30px;
+}
+.vip .vip_right .vip_tab_box{
+    margin-top:15px;
+}
+/*右边    结束*/
+/*vip区域   结束*/
+
+
+
+
+
+
+
+/*综艺区域    开始*/
+.zy{
+    width:1200px;
+    height:570px;
+    margin:0 auto;
+    border-bottom: 1px solid #eee;
+}
+.zy .zy_right{
+    margin-top:20px;
+}
+.zy .zy_right .zy_tab li{
+    width:59px;
+}
+.zy .zy_right .imglist_public li .time{
+    font-size: 12px;
+    color: #999;
+    float: right;
+    margin-top:-14px;
+}
+.zy .zy_right .links li span{
+    font-size: 12px;
+    color: #999;
+}
+/*综艺区域    开始*/
+
+
+
+
+
+
+
+/*动漫    开始*/
+.anime{
+    width: 1200px;
+    height:410px;
+    margin:0 auto ;
+    border-bottom:1px solid #eee;
+}
+
+/*左边    开始*/
+.anime .anime_left{
+    position: relative;
+    float: left;
+    width:915px;
+    margin-top:30px;
+}
+.anime .anime_left .public{
+    position: absolute;
+    display: none;
+    top:30px;
+    left:-35px;
+}
+.anime .anime_left .public li{
+    height:146px;
+    width:155px;
+}
+.anime .anime_left .public li p{
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-top:4px;
+}
+/*左边    结束*/
+
+/*右边    开始*/
+.anime .anime_right{
+    position: relative;
+    float: right;
+    width:250px;
+    margin-top:20px;
+}
+.anime .anime_right .anime_list{
+    margin-top:10px;
+}
+.anime .anime_right .simglist{
+    position: absolute;
+    display: none;
+    height:74px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.anime .anime_right .simglist li{
+    float: left;
+    width:55px;
+    padding-right:5px;
+}
+.anime .anime_right .simglist li a{
+    color: #333;
+}
+.anime .anime_right .simglist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+
+.anime .anime_right .tagbox{
+    position: absolute;
+    top:334px;
+    display: none;
+}
+.anime .anime_right .tagbox li{
+    float: left;
+    padding-left:10px;
+}
+.anime .anime_right .tagbox li a{
+    color: #333;
+}
+.anime .anime_right .tagbox li a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+.anime .anime_right .tagbox li .more{
+    color: #999;
+}
+/*右边    结束*/
+/*动漫    结束*/
+
+
+
+
+
+/*百度广告和子    开始*/
+.baidu{
+    width:1200px;
+    height:90px;
+    margin:0 auto;
+}
+.baidu .baidu_box{
+    position: relative;
+    float: right;
+    width:210px;
+    height:90px;
+}
+.baidu .baidu_box .e_box{
+    display: block;
+    width:210px;
+    height:57px;
+    line-height: 57px;
+    text-align: center;
+    background: #0048be;
+    color: #fff;
+    font:24px "Microsoft Yahei";
+    border-bottom:1px solid #fbfbfb;;
+}
+.baidu .baidu_box .n_box{
+    float: left;
+    display: block;
+    width:103px;
+    height:32px;
+    line-height:32px;
+    color: #fff;
+    text-align: center;
+    font:12px "Microsoft Yahei";
+    background: #00839a;
+    border-right:1px solid #fff;
+}
+.baidu .baidu_box .c_box{
+    float: right;
+    display: block;
+    width:105px;
+    height:32px;
+    line-height:32px;
+    color: #fff;
+    text-align: center;
+    font:12px "Microsoft Yahei";
+    background: #ffb700;
+    border-right:1px solid #fff;
+}
+.baidu .baidu_box .baidu_logo{
+    position: absolute;
+    bottom:0;
+    right:0;
+    display: block;
+    width:18px;
+    height:18px;
+    background: #ccc;
+}
+/*百度广告和子    结束*/
+
+
+
+
+
+
+
+
+/*观影指南    开始*/
+.guide{
+    position: relative;
+    width:1200px;
+    height:120px;
+    margin:0 auto;
+}
+.guide .imglist{
+    position: absolute;
+    left:-35px;
+    float: left;
+    width:960px;
+    height:120px;
+}
+.guide .imglist li{
+    float: left;
+    width:155px;
+    height:120px;
+    margin-left:35px;
+}
+.guide .imglist li .pic{
+    display: block;
+    width:155px;
+    height:90px;
+    background: #ccc;
+    
+}
+.guide .imglist li .title{
+    display: block;
+    color: #333;
+    margin-top:6px;
+}
+.guide .imglist li .title:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+.guide .guide_right{
+    float: right;
+    width:240px;
+    height:120px;
+}
+.guide .guide_right .pic{
+    display: block;
+    width:240px;
+    height:90px;
+    background: #ccc;
+}
+.guide .guide_right .title{
+    display: block;
+    color: #333;
+    margin-top:6px;
+}
+.guide .guide_right .title:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*观影指南    结束*/
+
+
+
+
+/*游戏区域    开始*/
+.game{
+    width:1200px;
+    height:246px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+}
+
+/*左边    开始*/
+ .game_left{
+    position: relative;
+    float: left;
+    width:915px;
+    margin-top:30px;
+}
+ .game_left .tabbox{
+    padding-left:60px;
+}
+ .game_left .glist{
+    display: none;
+    position: absolute;
+    left:-35px;
+    top:29px;
+    width:950px;
+}
+ .game_left .glist li{
+    height:145px;
+}
+ .game_left .glist li p{
+    display: block;
+    color: #999;
+    font-size: 12px;
+    padding-top:5px;
+}
+/*左边    结束*/
+
+/*右边    开始*/
+ .game_right{
+    float: right;
+    width:250px;
+    height:246px;
+    margin-left:-10px;
+}
+ .game_right .box_title{
+    padding-top:16px;
+}
+.game_right .list{
+    position: relative;
+    width:250px;
+    padding-top:3px;
+}
+ .game_right .list ol li{
+    margin-top: 12px;
+}
+ .game_right .list .game_right1{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.game_right .list .game_right2{
+    position: absolute;
+    left: 120px;
+    top:0;
+}
+/*右边    结束*/
+/*游戏区域    结束*/
+
+
+
+
+
+
+/*音乐区域 复用的游戏区域    开始*/
+/*音乐区域 复用的游戏区域    结束*/
+
+
+/*纪录片区域下广告    开始*/
+.baidu .baidu_box .purple{
+    background: #542ff0;
+}
+/*纪录片区域下广告    结束*/
+
+
+
+
+
+
+
+
+/*公开课   开始*/
+.open{
+    width:1200px;
+    height:248px;
+    margin:0 auto;
+    border:1px solid #eee;
+}
+
+/*公开课右边    开始*/
+.open .game_right .box_title{
+    margin-top:19px;
+}
+.open .game_right .open_imglist{
+    margin-left:10px;
+    margin-top:3px;
+}
+.open .game_right .open_imglist li{
+    float: left;
+    width:52px;
+    margin-top:6px;
+    padding-right:6px;
+}
+.open .game_right .open_imglist li a{
+    display: block;
+    text-align: center;
+    color: #333;
+}
+.open .game_right .open_imglist li a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+
+.open .game_right .open_imglist2 {
+    margin-left:10px;
+}
+.open .game_right .open_imglist2 li{
+    float: left;
+    width:52px;
+    margin-top:6px;
+    padding-right:6px;
+    text-align: center;
+}
+.open .game_right .open_imglist2 li a{
+    display: block;
+    text-align: center;
+    color: #333;
+}
+.open .game_right .open_imglist2 li a:hover{
+    text-decoration: underline;
+    color: #249ff1;
+}
+
+.open .game_right .txtlist{
+    clear: both;
+    margin-left:10px;
+    padding-top:10px;
+}
+.open .game_right .txtlist li{
+    color: #999;
+    padding-top:8px;
+    font-size: 12px;
+}
+.open .game_right .txtlist li a{
+    color: #333;
+}
+.open .game_right .txtlist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*公开课右边    结束*/
+/*公开课   结束*/
