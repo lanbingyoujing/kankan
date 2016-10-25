@@ -44,7 +44,7 @@ em{
 /*logo结束*/
 
 /*搜素框开始*/
-#header .search{
+.search{
     position: absolute;
     top:24px;
     left:414px;
@@ -54,7 +54,7 @@ em{
     border:1px solid #24BAF1;
 }
 
-#header .search .search_text{
+.search .search_text{
     position: absolute;
     left:0;
     top:0;
@@ -65,7 +65,7 @@ em{
     color: #c4c4c4;
 }
 
-#header .search .btn{
+ .search .btn{
     position: absolute;
     left:297px;
     top:0;
@@ -74,6 +74,7 @@ em{
     cursor: pointer;
     background: #24BAF1;
     border:1px solid #24BAF1;
+     color: #ffffff;
 }
 /*搜索框结束*/
 
@@ -1935,13 +1936,13 @@ em{
     height:90px;
     margin:0 auto;
 }
-.baidu .baidu_box{
+ .baidu_box{
     position: relative;
     float: right;
     width:210px;
     height:90px;
 }
-.baidu .baidu_box .e_box{
+.baidu_box .e_box{
     display: block;
     width:210px;
     height:57px;
@@ -1952,7 +1953,7 @@ em{
     font:24px "Microsoft Yahei";
     border-bottom:1px solid #fbfbfb;;
 }
-.baidu .baidu_box .n_box{
+.baidu_box .n_box{
     float: left;
     display: block;
     width:103px;
@@ -1964,7 +1965,7 @@ em{
     background: #00839a;
     border-right:1px solid #fff;
 }
-.baidu .baidu_box .c_box{
+.baidu_box .c_box{
     float: right;
     display: block;
     width:105px;
@@ -1976,7 +1977,7 @@ em{
     background: #ffb700;
     border-right:1px solid #fff;
 }
-.baidu .baidu_box .baidu_logo{
+ .baidu_box .baidu_logo{
     position: absolute;
     bottom:0;
     right:0;
@@ -2149,7 +2150,7 @@ em{
     width:1200px;
     height:248px;
     margin:0 auto;
-    border:1px solid #eee;
+    border-bottom:1px solid #eee;
 }
 
 /*公开课右边    开始*/
@@ -2215,3 +2216,517 @@ em{
 }
 /*公开课右边    结束*/
 /*公开课   结束*/
+
+
+
+
+/*靓tv    开始*/
+.good_tv{
+    width: 1200px;
+    height:248px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+}
+
+/*右边    开始*/
+.good_tv .good_right{
+    float: right;
+    width:240px;
+    height:240px;
+}
+.good_tv .good_right .tabbox_title{
+    margin-top:35px;
+    color: #000;;
+}
+.good_tv .good_right .tabbox_title a{
+    color: #333;
+    font: 16px "Microsoft Yahei";
+}
+.good_r_style{
+    border-bottom:2px solid #0099ff;
+}
+
+.good_tv .good_right .imglist{
+    display: none;
+    margin-top:15px;
+}
+.good_tv .good_right .imglist li{
+    float: left;
+    width:55px;
+    padding-right:5px;
+    text-align: center;
+}
+.good_tv .good_right .imglist li a{
+    color: #333;
+}
+.good_tv .good_right .imglist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+.good_tv .good_right .textlist{
+    padding-top:10px;
+    clear: both;
+    color: #999;
+    font-size:12px;
+}
+.good_tv .good_right .textlist li{
+    line-height: 20px;
+}
+.good_tv .good_right .textlist li a{
+    color: #333;
+}
+.good_tv .good_right .textlist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*右边    结束*/
+/*靓tv    结束*/
+
+
+
+
+
+
+
+/*合作专区    开始*/
+.coop{
+    width:1200px;
+    height:284px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+    overflow: hidden;
+}
+/*左边    开始*/
+.coop .coop_left{
+    position: relative;
+    float: left;
+    width:915px;
+}
+.coop .coop_left .coop_l_title{
+    width:915px;
+    height: 28px;
+    margin-top:30px;
+}
+.coop .coop_left .imglist{
+    position: absolute;
+    left:-35px;
+}
+.coop .coop_left .imglist li{
+    float: left;
+    width:155px;
+    height:126px;
+    margin-top:15px;
+    margin-bottom:9px;
+    padding-left:35px;
+}
+.coop .coop_left .imglist li .pic{
+    position: relative;
+    display: block;
+    width:155px;
+    height:100px;
+    background: #ccc;
+    margin-bottom:5px;
+}
+.coop .coop_left .imglist li .pic img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.coop .coop_left .imglist li .pic:hover{
+    margin-bottom:3px;
+}
+.coop .coop_left .imglist li .title{
+    display: block;
+    height:16px;
+    overflow: hidden;
+    color: #333;
+    padding-top:5px;
+    padding-bottom:3px;
+}
+.coop .coop_left .imglist li .title:hover{
+    color: #249ff1;
+}
+.cooplist{
+    position: absolute;
+    top:219px;
+    left:-20px;
+    width:935px;
+    border-top:1px dashed #ccc;
+}
+.cooplist ul{
+    padding-top:10px;
+}
+.cooplist li{
+    float: left;
+    margin-top:5px;
+    margin-left:23px;
+    padding-right:23px;
+    border-right:1px solid #ccc;
+    height:12px;
+    line-height:12px;
+}
+.cooplist .none{
+    padding-right: 0;
+    border:none;
+}
+.cooplist li a{
+    color: #333;
+}
+.cooplist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*左边    结束*/
+
+/*右边    开始*/
+.coop_right{
+    float: right;
+    width:240px;
+}
+.coop_right .coop_r_title{
+    height:28px;
+    margin-top:32px;
+}
+.coop_right .coop_r_title h3{
+    color: #333;
+    font:400 18px "Microsoft Yahei";
+}
+.coop_right .txtlist{
+    margin-top:20px;
+    color: #ccc;
+}
+.coop_right .txtlist li{
+    height:26px;
+    line-height:26px;
+    overflow: hidden;
+}
+.coop_right .txtlist li a{
+    color: #333;
+}
+.coop_right .txtlist li a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+.coop_right .sns{
+    height:22px;
+    margin-top:9px;
+    border-top:1px dashed #cccccc;
+    padding-top:9px;
+}
+.coop_right .sns span {
+    float: left;
+    color: #666;
+    font: 400 14px "Microsoft Yahei";
+    line-height: 22px;
+}
+.coop_right .sns a{
+    display: block;
+    float: left;
+    width:62px;
+    height:22px;
+    margin-left:4px;
+}
+.coop_right .sns .sina{
+    background: #ccc;
+}
+.coop_right .sns .qq{
+    background: #eee;
+}
+/*右边    结束*/
+/*合作专区    结束*/
+
+
+
+
+/*底部区域    开始*/
+.bottom{
+    width:100%;
+    height:196px;
+    background: #f5f5f5;
+}
+.bottom .bottom_box{
+    position: relative;
+    width:1200px;
+    height:196px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+}
+.bottom .bottom_box .search{
+    position: absolute;
+    left:375px;
+    top:30px;
+}
+.bottom .bottom_box .tag{
+    position: absolute;
+    top:30px;
+    left:740px;
+}
+.bottom .bottom_box .tag a{
+    color: #999;
+    font-size: 12px;
+}
+.bottom .bottom_box .tag a:hover{
+    text-decoration: underline;
+}
+.bottom .bottom_box .textlist{
+    position: absolute;
+    top:100px;
+    left:50px;
+}
+.bottom .bottom_box .maplist{
+    float: left;
+    width:220px;
+    height:60px;
+    border-right:1px solid #ebebeb;
+    border-left:1px solid #fbfbfb;
+    padding-left:30px;
+    padding-right:23px;
+}
+.bottom .bottom_box .first{
+    border-left:none;
+}
+.bottom .bottom_box .last{
+    border-right:none;
+}
+.bottom .bottom_box .maplist dt{
+    color: #333;
+    font:700 14px "Microsoft Yahei";
+    line-height: 20px;
+}
+.bottom .bottom_box .maplist dd{
+    padding-right:5px;
+    line-height: 22px;
+    width:180px;
+}
+.bottom .bottom_box .maplist dd a{
+    color: #333;
+    white-space: nowrap;
+}
+.bottom .bottom_box .maplist dd a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+/*底部区域    结束*/
+
+
+
+
+
+/*底部轮换区域    开始*/
+#ad{
+    width:1200px;
+    height:90px;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+    padding-top:31px;
+}
+#ad .ad_left{
+    float: left;
+    position: relative;
+    height:88px;
+    width:948px;
+    border:1px solid #e5e5e5;
+    background: #fff;
+}
+#ad .ad_left ul{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+#ad .ad_left ul li{
+    float: left;
+    position: relative;
+    width:230px;
+    height:88px;
+}
+#ad .ad_left ul li .ad_pic{
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:90px;
+    height:88px;
+    background: #ccc;
+    overflow: hidden;
+}
+#ad .ad_left ul li .sal{
+    position: absolute;
+    top:28px;
+    left:95px;
+    color: #666;
+    font:400 12px "Microsoft Yahei";
+}
+#ad .ad_left ul li .price_pic{
+    display: block;
+    position: absolute;
+    left:95px;
+    top:50px;
+    width:5px;
+    height:23px;
+    background: #ccc;
+}
+#ad .ad_left ul li .price{
+    position: absolute;
+    left:95px;
+    top:50px;
+    width:82px;
+    height:18px;
+    line-height: 18px;
+    text-align: center;
+    background: #ccc;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    font-weight:400;
+}
+
+#ad .ad_left .ad_tab{
+    position: absolute;
+    right:10px;
+    top:11px;
+    width:10px;
+}
+#ad .ad_left .ad_tab a{
+    display: block;
+    width:9px;
+    height:9px;
+    margin-top:10px;
+    border-radius: 8px;
+    background: #ccc;
+}
+#ad .ad_left .ad_tab .one{
+    background: orangered;
+}
+#ad .ad_left .tao{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width:26px;
+    height:17px;
+    background: #ccc;
+}
+#ad .ad_left .tao2{
+    position: absolute;
+    top:0;
+    left:0;
+    width:7px;
+    height:7px;
+    background: orangered;
+}
+#ad .ad_left .tao1{
+    display: none;
+    position: absolute;
+    right:0;
+    bottom:0;
+    width:106px;
+    height:17px;
+    background: #444;
+}
+
+#ad .pop{
+    float: left;
+    width:30px;
+    height:90px;
+    background: #000;
+}
+#ad .baidu_box .purple{
+    background: #24BAF1;
+}
+/*底部轮换区域    结束*/
+
+
+
+/*页脚    开始*/
+.footer{
+    width:1200px;
+    height:163px;
+    margin:0 auto;
+    padding-top:30px;
+}
+.footer .footer_nav{
+    text-align: center;
+    color: #cbcbcb;
+}
+.footer .footer_nav a{
+    color: #333;
+    font-size: 12px;
+    
+}
+.footer .footer_nav a:hover{
+    color: #249ff1;
+    text-decoration: underline;
+}
+.footer .copyright{
+    text-align: center;
+    margin-top:4px;
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer .copyright p a{
+    color: #999;
+}
+.footer .copyright p a:hover{
+    text-decoration: underline;
+}
+.footer .copyright .p_2 a{
+    color: #333;
+    text-decoration: underline;
+}
+.footer .footer_pic{
+    width: 100px;
+    height:60px;
+    background: #ccc;
+    margin:0 auto;
+}
+.footer .footer_pic a{
+    display: block;
+    width: 100px;
+    height:60px;
+}
+/*页脚    结束*/
+
+
+
+
+/*返回顶部    开始*/
+.back_box{
+    position: fixed;
+    bottom:167px;
+    right:0;
+    width:50px;
+    height:81px;
+}
+.idea{
+    position: absolute;
+    bottom:0;
+    right:10px;
+    width:38px;
+    height:38px;
+    background: #ccc;
+}
+.idea a{
+    display: block;
+    width:38px;
+    height:38px;
+}
+.idea a:hover{
+    background: orangered;
+}
+.back_top{
+    position: absolute;
+    top:0;
+    right:10px;
+    width:38px;
+    height:38px;
+    background: #ccc;
+}
+.back_top a{
+    display: block;
+    width:38px;
+    height:38px;
+}
+.back_top a:hover{
+    background: orangered;
+}
+/*返回顶部    结束*/

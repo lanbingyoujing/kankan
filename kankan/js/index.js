@@ -1,6 +1,8 @@
 $(function () {
    var timer='';     //定时器
     var i=0;
+    var y=0;
+    var tao_timer='';
 
     //左边公用tab切换样式
     $('.tabbox a').mouseover(function () {
@@ -10,7 +12,7 @@ $(function () {
     });
 
     //搜索框获取焦点效果
-    $('#header .search .search_text').focus(function () {
+    $('.search .search_text').focus(function () {
        $(this).css('outline','none')
     });
 
@@ -46,7 +48,6 @@ $(function () {
 
     //轮换版
     //放入小图片关闭定时器
-    $()
     $('.smal_pic li').mouseover(function () {
         clearInterval(timer);
         var backImg = $(this).find('img').attr('backImg');
@@ -170,8 +171,69 @@ $(function () {
         $(this).css('opacity','1')
     });
 
+    //靓TV右边tab效果切换
+    $('.good_right .tabbox_title a').mouseover(function () {
+        $(this).addClass('good_r_style').siblings('a').removeClass('good_r_style');
+        var cur=$(this).index();
+        $('.good_right .imglist').eq(cur).show().siblings('.imglist').hide()
+    });
+
+    //淘宝小图片移入效果
+    $('.tao').mouseover(function () {
+        $('div.tao1').show();
+        $(this).hide()
+    });
+    $('.tao1').mouseout(function () {
+        $(this).hide();
+        $('.tao').show()
+    });
+
+    //淘宝的广告切换效果
+    $('.ad_left').mouseover(function () {
+        clearInterval(tao_timer)
+    });
+    $('.ad_tab a').mouseover(function () {
+        $(this).addClass('one').siblings('a').removeClass('one');
+        var cur=$(this).index();
+        $('.ad_left ul').eq(cur).show().siblings('ul').hide()
+    });
+
+    $('.ad_left').mouseout(function () {
+        tao_timer=setInterval(tab,1000);
+    });
+    tao_timer=setInterval(tab,1000);
+
+    function tab(){
+        if(y>2){
+            y=0
+        }
+        $('.ad_left ul').eq(y).show().siblings('ul').hide();
+        $('.ad_tab a').eq(y).addClass('one').siblings('a').removeClass('one');
+        y++;
+    }
+
+    //返回顶部效果
+    $(window).scroll(function () {
+        var top =$("body").scrollTop();
+        (top>500)?$('.back_top').show():$('.back_top').hide();
+    });
+
+    var back_timer='';
+
+    $('.back_top a').click(function (e) {
+        //setInterval()方法实现
+        back_timer=setInterval(function () {
+           $("body").scrollTop($("body").scrollTop()-100);
+            if($("body").scrollTop()<=0){
+                clearInterval(back_timer)
+            }
+        },1);
 
 
-
-
+        //animate实现
+        //$('body').animate({
+        //    scrollTop:0
+        //},1000);
+        e.preventDefault()
+    })
 });
